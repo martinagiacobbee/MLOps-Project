@@ -2,13 +2,13 @@
 ````markdown
 # 🔍 Income Classification with AWS Lambda & S3
 
-Un progetto end-to-end per la **predizione del reddito** (superiore o inferiore a 50K) basato sul dataset *Adult Census Income*, interamente orchestrato con **AWS Lambda**, **S3**, e **API Gateway**. L’obiettivo è creare un'infrastruttura serverless per il preprocessing, l’addestramento del modello e l’inferenza via HTTP.
+Un progetto end-to-end per la predizione del reddito (superiore o inferiore a 50K) basato sul dataset *Adult Census Income*, interamente orchestrato con **AWS Lambda**, **S3**, e **API Gateway**. L’obiettivo è creare un'infrastruttura serverless per il preprocessing, l’addestramento del modello e l’inferenza via HTTP.
 
 ---
 
 ## 📁 Architettura del Progetto
 
-```plaintext
+```
           ┌─────────────┐
           │ S3 Bucket   │ (raw + preprocessed + model)
           └─────┬───────┘
