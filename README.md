@@ -1,6 +1,3 @@
-Ecco un esempio di `README.md` ben strutturato per il tuo progetto di **machine learning serverless su AWS** con preprocessing, training e inferenza tramite Lambda, S3 e API Gateway:
-
----
 
 ````markdown
 # 🔍 Income Classification with AWS Lambda & S3
