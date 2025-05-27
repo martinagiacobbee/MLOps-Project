@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "ssdc--bucket"
+        },
+        "object": {
+          "key": "raw/adult.data"
+        }
+      }
+    }
+  ]
+}
